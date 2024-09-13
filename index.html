@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tratando que funcione</title>
 </head>
 <body>
-    <h1>Que esta pasando primer commit dea git push</h1>
-
-
-    <h2>segundoooo pull fetch deaaa</h2>
-
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat veritatis iusto sunt autem ad fugiat natus corrupti. Aliquam odio et ipsum rerum, tempora unde mollitia illo culpa quae. Nam, officiis?</p>
-
-
-      <h2>otro cambio</h2>
+    <h1>Lavado de autos</h1>
+    <h2>Registro de autos</h2>
+    
+    <div class="autos">
+                <form action="registro.php" method="post">
+            <label for="placa">Placa</label>
+            <input type="text" name="placa" id="placa" required>
+            <label for="marca">Marca</label>
+            <input type="text" name="marca" id="marca" required>
+            <label for="modelo">Modelo</label>
+            <input type="text" name="modelo" id="modelo" required>
+            <label for="color">Color</label>
+            <input type="text" name="color" id="color" required>
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" id="precio" required>
+            <label for="fecha">Fecha de ingreso</label>
+            <input type="date" name="fecha" id="fecha" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
